@@ -1,0 +1,25 @@
+.search-results {
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    background-color: white;
+    border-bottom: 1px solid #474747;
+    width: 300px;
+}
+
+.result:hover {
+    cursor: pointer;
+    background-color: #e1e2e3;
+}
+
+.result-name {
+    color: black;
+}
+
+.result-info {
+    margin-top: -7px;
+    font-size: 13px;
+    color: #474747;
+}

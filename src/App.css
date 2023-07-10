@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #011313;
+    color: #9bd3d4;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.main-section {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+    line-height: 1;
+}
+
+.header h1 {
+    padding-top: 20px;
+
+}
+
+.header h2 {
+    opacity: 20%;
+    margin-top: -15px;
+    font-size: 16px;
+}
+
+.accent {
+    color: #bd7696;
+    text-decoration: underline;
+}
+
+.search-results {
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn-info {
+    margin-top: 15px;
+    padding: 7px;
+    color: white;
+    background-color: #626262;
+    border: none;
+    border-radius: 5%;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn-reset {
+    display: inline-block;
+    font-size: 24px;
+    width: 120px;
+    padding: 10px 10px;
+    background-color: #9bd3d4;
+    border: none;
+    margin-right: 1px;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+.btn-giveup {
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px 10px;
+    background-color: #9bd3d4;
+    border: none;
+    margin-left: 1px;
+    border-radius: 7%;
+    cursor: pointer;
+    width: 120px;
+}

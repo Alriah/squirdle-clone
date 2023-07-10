@@ -1,0 +1,97 @@
+.indicators {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 16px;
+    margin-bottom: 5px;
+}
+
+.indicator-type1 {
+    margin-left: -4px;
+}
+
+.indicator-type2 {
+    margin-left: -14px;
+}
+
+.indicator-weight {
+    margin-left: -12px;
+}
+
+.indicator-height {
+    margin-left: -16px;
+}
+
+.guess-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 2px;
+    margin-bottom: 2px;
+}
+
+.guess-circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px white solid;
+}
+
+.guess-half {
+    background-color: #dbb75c;
+}
+
+.guess-wrong {
+    background-color: #e35954;
+}
+
+.guess-correct {
+    background-color: #51b054;
+}
+
+.guess-blue {
+    background-color: #5182b0;
+}
+
+.icon {
+    text-align: center;
+    margin-top: 12px;
+    width: 35px;
+    height: 35px;
+    color: white;
+}
+
+.guess-name {
+    align-self: center;
+    padding-left: 7px;
+    color: red;
+}
+
+.guess-name:hover .tooltip {
+    visibility: visible;
+}
+
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    background-color: black;
+    color: white;
+    list-style: none;
+    margin-top: -14px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 10px 50px 10px 50px;
+    z-index: -1;
+    border-radius: 5%;
+}
+
+.tooltip li {
+    margin-bottom: 3px;
+}
+
+/* .tooltip ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+} */
